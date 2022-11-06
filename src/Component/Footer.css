@@ -1,0 +1,24 @@
+.footerContent{
+    background-color: #292b2c;
+}
+
+.footerContent .img-fluid{
+    width: auto;
+    height: 200px;
+}
+
+.footerContent h5{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(145, 145, 145);
+}
+
+.footerContent p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.footerContent address{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+

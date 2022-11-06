@@ -1,0 +1,89 @@
+
+
+
+.topnav {
+  background-color: rgb(25, 25, 25);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  height: 60px;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 15px;
+  color:  #ffa700;
+  font-family: Roboto;
+}
+
+.topnav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.topnav a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  opacity: 0.9;
+  margin: 15px;
+  position: relative;
+  font-family: 'Roboto Light', sans-serif;
+}
+
+.topnav > a > a:hover {
+  opacity: 1;
+}
+
+.topnav > ul > ul::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #ffffff;
+  transition: all 0.45s;
+}
+
+
+.topnav > ul > ul:hover::before {
+  width: 100%;
+}
+
+.topnav > .nav-toggle {
+  display: none;
+}
+
+
+@media (max-width: 700px) {
+
+  .topnav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 0;
+  }
+  
+  .topnav a {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    opacity: 0.9;
+    margin: 5px;
+    position: relative;
+    font-family: 'Roboto Light', sans-serif;
+  }
+
+  
+
+}
+

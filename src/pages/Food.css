@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+
+/* foodlist content */
+
+.foodlist .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .foodlist .nav-link{
+    color: black;
+  }
+
+
+  /* Burger List */
+  .burgerList .card{
+    border: none;
+  }
+
+    /* Submarine List */
+    .submarineList .card{
+      border: none;
+    }

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+
+/* order form content */
+
+.orderForm .center{
+    padding: 136px;
+}
+
+.orderForm h1{
+    font-family: 'Roboto black', sans-serif;
+    font-size: 40px;
+}
+
+.orderForm h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.orderForm p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.orderForm .form-check-label{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero content */
+
+.heroContent .center{
+    padding: 136px;
+}
+
+.heroContent h1{
+    font-family: 'Roboto black', sans-serif;
+    font-size: 70px;
+}
+
+.heroContent p{
+    font-family: 'Roboto Light', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* detail content */
+
+.detailContent .center{
+    padding: 100px;
+}
+
+.detailContent h1{
+    font-family: 'Roboto black', sans-serif;
+    font-size: 70px;
+}
+
+.detailContent p{
+    font-family: 'Roboto Light', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* history content */
+
+.history .center{
+    padding: 136px;
+}
+
+.history h3{
+    font-family: 'Roboto black', sans-serif;
+    font-size: 40px;
+    text-align: right;
+}
+
+.history p{
+    font-family: 'Roboto Light', sans-serif;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services content */
+
+.services h1{
+    font-family: 'Roboto black', sans-serif;
+    font-size: 70px;
+}
+
+.services p{
+    font-family: 'Roboto Light', sans-serif;
+}
+
+.services .card-text{
+    font-family: 'Roboto Light', sans-serif;
+}
+
+
+
+
+/* Responsiveness content */
+
+@media only screen and (max-width: 428px) {
+    .orderForm .center{
+        padding: 70px;
+    }
+
+    .heroContent .center{
+        padding: 70px;
+    }
+
+    .detailContent .center{
+        padding-left: 70px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+
+    .history .center{
+        padding: 70px;
+    }
+}

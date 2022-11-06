@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+
+
+/* kids Section */
+
+.kidsSection h5{
+    font-family: 'Roboto black', sans-serif;
+    color: #432C7A;
+}
+
+.kidsSection h1{
+    font-family: 'Roboto black', sans-serif;
+    font-size: 40px;
+    color: #FF8FB1;
+}
+
+.kidsSection p{
+    font-family: 'Roboto Light', sans-serif;
+    color: #80489C;
+}
+
+
+
+
+/* kids programs */
+
+.kidsPrograms h5{
+    font-family: 'Roboto black', sans-serif;
+    color: #5F9DF7;
+    text-align: center;
+}
+
+.kidsPrograms h1{
+    font-family: 'Roboto black', sans-serif;
+    font-size: 40px;
+    color: #1746A2;
+    text-align: center;
+}
+
+.kidsPrograms p{
+    font-family: 'Roboto', sans-serif;
+    color: #905E96;
+    text-align: center;
+}
+
+
+
+.kidsPrograms .card-title{
+    font-family: 'Roboto black', sans-serif;
+    color: #5F9DF7;
+}
+
+.kidsPrograms .card-body{
+    text-align: center;
+}
+
+.kidsPrograms .card{
+    border: none;
+}

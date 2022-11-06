@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+
+
+/* Tech News */
+
+
+.techNews .text-center{
+    font-family: 'Roboto black', sans-serif;
+    font-size: 60px;
+}
+
+.techNews h1{
+    font-family: 'Roboto black', sans-serif;
+    font-size: 40px;
+}
+
+.techNews p{
+    font-family: 'Roboto Light', sans-serif;
+}
